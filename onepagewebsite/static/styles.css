@@ -1,0 +1,383 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+body{
+    scroll-behavior: smooth;
+}
+header{
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+    padding:10px 10px;
+    flex-direction: column;
+    align-items: center;
+    position:fixed;
+    z-index:999;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-size: 100%;
+    font-family: sans-serif;
+}
+
+div, section, span, ul, li, a, header,h1{
+    box-sizing: border-box;
+}
+
+
+h4{
+    text-decoration: underline;
+    color:rgb(76, 76, 202);
+}
+h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
+
+.title {
+    color: grey;
+    font-size: 18px;
+  }
+  
+ .card  button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+  }
+  
+  .card button:hover, a:hover {
+    opacity: 0.7;
+  }
+
+
+#team{
+    height:900px;
+    display: flex;
+    flex-direction: column;
+}
+.row{
+    width:20%;
+    /* border:2px solid black; */
+    display: flex;
+    flex-direction: column;
+    top:80px;
+    margin-top:10%;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 200px;
+    text-align: center;
+    font-family: arial;
+    margin-left:6%;
+    margin-top:2%;
+    display: flex;
+  
+   
+
+  }
+  .card-one {
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
+    max-width: 290px;
+    height:270px;
+    text-align: center;
+    font-family: arial;
+    justify-content: center;
+    padding-top:5%;
+     margin-left:35%;
+     /* border:2px solid black; */
+     position: absolute;
+     top: 200px;
+    /* z-index: 999; */
+    display: flex;
+    float:left;
+   
+
+  }
+
+  .card-two {
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
+    max-width: 200px;
+    height:200px;
+    text-align: center;
+    font-family: arial;
+  
+    justify-content: center;
+    padding-top:6%;
+     margin-left:75%;
+     float:left;
+     font-size:20px;
+     /* border:2px solid black; */
+     position: absolute;
+     top: 200px;
+    /* z-index: 999; */
+
+    float:left;
+   
+
+  }
+  .card-two a{
+    color:blue;
+    font-size: 20px;
+  }
+  .centre{
+    width:80%;
+    margin-left:30%;
+    margin-top:2%;
+    align-items: center;
+  }
+  #team h2{
+    text-align: center;
+    margin-top: 6%;
+  }
+
+  .first-container{
+    width:450px;
+    height:400px;
+    margin-right:10%;
+ 
+    background-color: #fff;
+    border-radius: 2%;
+    padding:2%;
+    display:flex;
+    margin-top:6%;
+    align-items: center;
+    flex-direction: column;
+    padding-right:4%;
+    text-align: center;
+}
+.sec-container{
+    width:500px;
+    height:400px;
+    margin-right:10%;
+
+    background-color: #fff;
+    border-radius: 2%;
+    padding:2%;
+    display:flex;
+    margin-top:6%;
+    align-items: center;
+    flex-direction: column;
+    padding-right:4%;
+    text-align: center;
+}
+
+.firstcontainer{
+    width:450px;
+    height:400px;
+    margin-right:10%;
+    border: 1px solid;
+    background-color: #fff;
+    border-radius: 2%;
+    padding:2%;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    padding-right:4%;
+    text-align: center;
+}
+
+#menu li{
+    list-style: none;
+    display: inline-block;
+    margin: 20px;
+}
+
+#menu li a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+section{
+    width: 100%;
+    float: left;
+    height: 100vh;
+    position: relative;
+}
+.head{
+    color:black;
+    display:flex;
+    margin-left:5%;
+    text-decoration: none;
+  
+    font-size:20px
+}
+#home{
+    background-color: #fff;
+}
+#features{
+    background-color:#fff ;
+    display:flex;
+    flex-direction: row;
+    margin-top:5%
+}
+#features img{
+    margin-left:5%;
+    
+}
+#team{
+    background-color:  rgb(69, 151, 184);
+}
+.img-share{
+    width:1500px;
+    height:850px;
+    position:relative;
+    float:right;
+    margin-top:2%;
+    background-image: url('../static/bg3.png');
+}
+
+.direct{
+    color: rgb(69, 151, 184);
+    font-size: 20px;
+}
+.wordings{
+    width:280px;
+    display: flex;
+    margin-top: 20%;
+    margin-left:2%;
+    flex-direction: column;
+}
+.highlight{
+    font-size: 50px;
+    color: #888888
+}
+.wordings p{
+    color: rgb(69, 151, 184);
+    text-align: left;
+}
+.class_2{
+    display: flex;
+    flex-direction:row;
+}
+.class_3{
+    width:100%;
+    height:90%;
+    background-color: rgb(69, 151, 184);
+    display: flex;
+    flex-direction:row;
+    margin:2%;
+    padding-left:32%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    align-items: center;
+}
+.class_3 p{
+    text-align: justify;
+    margin-top: 5%;
+}
+#about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    padding-left:0%
+    
+}
+
+
+
+h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
+.container{
+    position: relative;
+    max-width: 430px;
+    width: 100%;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin: 0 20px;
+}
+button{
+    margin-top:60px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    width:150px;
+    height:50px;
+    justify-content: center;
+    border-radius: 6%;
+    background-color:#fff ;
+    border:none;
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+
+}
+
+.navbar{
+    border:2px solid black;
+    width:1200px;
+    background-color: #fff;
+    border-radius: 30px;
+    margin-top:2%;
+    overflow: hidden;
+    margin-left:2%;
+    z-index: 999;
+    
+}
+#help{
+    background-color: #fff;
+}
+.navbar ul{
+    overflow: auto;
+}
+.navbar li{
+    float:left;
+    list-style: none; 
+    margin: 10px 10px;
+    
+}
+.navbar li a{
+    padding: 5px 8px;
+    text-decoration: none;
+    color: black;
+}
+.navbar li a:hover{
+    color: red
+}
+.search{
+    float: right;
+    color: white;
+    padding: 12px 75px;
+}
+.navbar input{
+    border: 2px solid black;
+    border-radius: 14px;
+    padding: 3px 17px;
+    width: 150px;
+}
